@@ -1,3 +1,10 @@
+/*
+Author 		: M Reza Atthariq Kori 
+NPM 		: 140810180060
+Kelas		: B
+Tanggal		: 24 April 2019
+Deskripsi	: Program Mengentri dan mengupdate data pada single Linked List
+*/
 #include<iostream>
 using namespace std;
 
@@ -69,9 +76,8 @@ void update(List& First){
 
 int main(){
     List l;
-    pointer p,pCari;
-    int n,ketemu;
-    char key[30];
+    pointer p;
+    int n;
     char nama[15];
     
     cout<<"Masukkan nama pemesan : "; cin.ignore();cin.getline(nama,15);
